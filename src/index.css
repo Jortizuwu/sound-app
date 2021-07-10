@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-white bg-black p-3 rounded-full hover:bg-white hover:text-black transition duration-300 font-semibold;
+}
+
+.card-list {
+  @apply transform hover:scale-105 shadow-md cursor-pointer transition duration-300 bg-white rounded-xl text-black hover:text-white w-11/12 hover:bg-black flex flex-row p-2 justify-between space-x-3 h-24;
+}
+
+.card-active {
+  @apply bg-black text-white;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+}
+
+.hola {
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0 8px 32px 0 rgba(67, 78, 223, 0.295);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+
+.reflejo {
+  -webkit-box-reflect: below -25px -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      to(rgba(255, 255, 255, 0.384))
+    );
+  overflow: hidden;
+}
+
+/* .uwu::-webkit-scrollbar {
+  width: 7px;
+}
+.uwu::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+.uwu::-webkit-scrollbar-thumb {
+  background-color: rgb(70, 70, 70);
+  border-radius: 20px;
+} */
